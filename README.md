@@ -1,43 +1,34 @@
 **English** · [Français](README.fr.md)
 
-**Anthony Hunt** · [Project page on ingevision.cloud](https://ingevision.cloud/?lang=en&p=lomo) · [LinkedIn](https://www.linkedin.com/in/anthony-hunt-3948a9196) · [GitHub profile](https://github.com/anthohunt)
-
-> Showcase repository: the code and data of this project are private; this README describes it.
-
 # LoMo
 
-A supply chain course where students design a European network, simulate it and compare a classic network with a Physical Internet network, on the web or in virtual reality.
+**Students design a European supply chain network, simulate it, then rebuild it with Physical Internet options and measure the gap.** A course module of the HITeC platform, played together on a computer, a phone or a Meta Quest headset.
 
-## The problem
+[![The map of the starting network, a fulfilment centre opened in Madrid, a 150-day run and its four results, then the switch to hyperconnected transport seen on a phone (click for the full video)](docs/demo.gif)](https://drive.google.com/file/d/1oU39vlcpxEfFu0RXz3ERBBnLPYjn2RT0/view)
 
-The Physical Internet proposes sharing warehouses, factories and carriers instead of each company owning its own. The idea stays abstract until you see it play out on costs, lead times and carbon. LoMo serves an engineering school for a master's module: students build two networks and measure the gap. Part of the group refused the headset, hence a complete web version.
+*Map, a new fulfilment centre, a 150-day run, then hyperconnected transport seen on a phone. [Full video (2:17, French narration)](https://drive.google.com/file/d/1oU39vlcpxEfFu0RXz3ERBBnLPYjn2RT0/view)*
 
-## How it works
+## Using it
 
-- The teacher prepares the scenario: cities, costs of warehouses, factories and trucks in euros and in carbon, products and bills of materials, demand per customer.
-- The student places factories, warehouses and distribution centres on a map of 149 European cities and draws demand as curves (stable, seasonal, growing).
-- They set decisions per site: trucks, production lines, storage, safety stock, logistics links.
-- They first design a baseline network, then a Physical Internet version with hubs, open factories and warehouses, and independent carriers, among five modes.
-- A simulation engine runs the network; a calculation service derives about thirty indicators from it (finance, service, stock, carbon).
-- The two networks are shown side by side for comparison.
+- **Room.** The teacher opens a room and loads a scenario: suppliers, a factory, a distribution centre, customers across Europe, a year in three seasons.
+- **Seats.** Each student takes one facility, from a browser, a phone or the headset. A change made anywhere shows up for everyone.
+- **Decisions.** Students open fulfilment centres on the map (size S, M or L), then set shelves, trucks and production lines season by season. A checklist holds the run until nothing is missing.
+- **Simulation.** The teacher runs 150 days of deliveries. Results come in four families (efficiency, carbon, service, cost), then facility by facility.
+- **Five settings.** Baseline, then four Physical Internet settings: hyperconnected transport, open distribution and fulfilment centres, distributed manufacturing, open factories. Each one is compared with the baseline.
 
-## What is built
+## Architecture
 
-On hold, nothing in production.
+![LoMo architecture: browsers go to the HITeC site, headsets to a room engine over Netcode; the room engine sends the network to the indicator service, which has the simulation engine run the deliveries](docs/architecture.svg)
 
-- A first version was used during the June 2026 course: online scenario builder, a fallback web page that reproduces the headset settings, export to the headset, import of results, Excel templates to work without a server.
-- Bugs fixed along the way: a 28-city map exported instead of the 149-city one (actors lost, flat simulation), simultaneous saves overwriting each other (9 out of 10 lost before the fix).
-- Since October, the course runs entirely inside the school's VR platform, web and Meta Quest headset, in multiplayer. The 15 steps of the build campaign were validated by an independent judge; 84 LoMo tests pass on the redesigned web page.
-- A demo video is being shot: 7 sequences delivered out of 11.
+## Status
 
-## What is public
+- **June 2026.** First version used in class. The students turned down the headset, so the course was rebuilt web first, headset optional.
+- **October 2026.** Second version inside HITeC: 15 steps, each validated by an independent reviewer.
+- **Now.** On hold since 1 November 2026, not in production. The test instance on the school server (Docker, school network only) is stopped.
+- **Stack.** Unity (headset app, one dedicated server per room, Netcode for GameObjects), Node.js and TypeScript, Python with FastAPI and Redis, nginx.
 
-This showcase is public; the code, scenarios and course content stay private.
+---
 
-## Tech stack
+**Anthony Hunt** · [ingevision.cloud](https://ingevision.cloud/?lang=en&p=lomo) · [LinkedIn](https://www.linkedin.com/in/anthony-hunt-3948a9196) · [GitHub](https://github.com/anthohunt)
 
-- Unity, Meta Quest, Netcode for GameObjects
-- Python for the scenario builder and Excel exports (openpyxl)
-- Leaflet for the map
-- Indicator service in Node.js and TypeScript
-- Docker, Traefik
+The code, scenarios and course content stay private. The video uses demo accounts and a test scenario.
