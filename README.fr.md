@@ -18,7 +18,13 @@
 
 ## Architecture
 
+![Architecture de LoMo : les navigateurs passent par le site HITeC, les casques par un moteur de salle en Netcode ; le moteur de salle envoie le réseau au service d'indicateurs, qui fait simuler les livraisons par le moteur de simulation](docs/architecture.svg)
+
+<details><summary>Diagramme en français</summary>
+
 ![Architecture de LoMo : les navigateurs passent par le site HITeC, les casques par un moteur de salle en Netcode ; le moteur de salle envoie le réseau au service d'indicateurs, qui fait simuler les livraisons par le moteur de simulation](docs/architecture.fr.svg)
+
+</details>
 
 ## État
 

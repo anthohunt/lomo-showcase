@@ -20,6 +20,12 @@
 
 ![LoMo architecture: browsers go to the HITeC site, headsets to a room engine over Netcode; the room engine sends the network to the indicator service, which has the simulation engine run the deliveries](docs/architecture.svg)
 
+<details><summary>French version</summary>
+
+![Architecture de LoMo : les navigateurs passent par le site HITeC, les casques par un moteur de salle en Netcode ; le moteur de salle envoie le réseau au service d'indicateurs, qui fait simuler les livraisons par le moteur de simulation](docs/architecture.fr.svg)
+
+</details>
+
 ## Status
 
 - **June 2026.** First version used in class. The students turned down the headset, so the course was rebuilt web first, headset optional.
