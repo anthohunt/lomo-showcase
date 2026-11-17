@@ -4,9 +4,15 @@
 
 **Les étudiants conçoivent un réseau logistique européen, le simulent, puis le refont avec les options de l'Internet physique et mesurent l'écart.** Un module de cours de la plateforme HITeC, joué ensemble sur ordinateur, téléphone ou casque Meta Quest.
 
-[![La carte du réseau de départ, un centre de traitement ouvert à Madrid, un calcul de 150 jours et ses quatre résultats, puis le passage au transport hyperconnecté vu sur un téléphone (cliquer pour la vidéo complète)](docs/demo.gif)](https://drive.google.com/file/d/1oU39vlcpxEfFu0RXz3ERBBnLPYjn2RT0/view)
+[![La carte du réseau de départ, un centre de traitement ouvert à Madrid, un calcul de 150 jours et ses quatre résultats, puis le passage au transport hyperconnecté vu sur un téléphone (version anglaise, cliquer pour la vidéo complète)](docs/demo.webp)](https://drive.google.com/file/d/1oU39vlcpxEfFu0RXz3ERBBnLPYjn2RT0/view)
 
-*[Vidéo complète (2:17)](https://drive.google.com/file/d/1oU39vlcpxEfFu0RXz3ERBBnLPYjn2RT0/view)*
+<details><summary>Version française</summary>
+
+[![La carte du réseau de départ, un centre de traitement ouvert à Madrid, un calcul de 150 jours et ses quatre résultats, puis le passage au transport hyperconnecté vu sur un téléphone (cliquer pour la vidéo complète)](docs/demo.fr.webp)](https://drive.google.com/file/d/1LDG9IksurkQEXg4Vm_VjsnahHBX1TiVL/view)
+
+</details>
+
+*[Vidéo complète (2:17)](https://drive.google.com/file/d/1LDG9IksurkQEXg4Vm_VjsnahHBX1TiVL/view)*
 
 ## Utilisation
 

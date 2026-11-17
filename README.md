@@ -4,9 +4,15 @@
 
 **Students design a European supply chain network, simulate it, then rebuild it with Physical Internet options and measure the gap.** A course module of the HITeC platform, played together on a computer, a phone or a Meta Quest headset.
 
-[![The map of the starting network, a fulfilment centre opened in Madrid, a 150-day run and its four results, then the switch to hyperconnected transport seen on a phone (click for the full video)](docs/demo.gif)](https://drive.google.com/file/d/1oU39vlcpxEfFu0RXz3ERBBnLPYjn2RT0/view)
+[![The map of the starting network, a fulfilment centre opened in Madrid, a 150-day run and its four results, then the switch to hyperconnected transport seen on a phone (click for the full video)](docs/demo.webp)](https://drive.google.com/file/d/1oU39vlcpxEfFu0RXz3ERBBnLPYjn2RT0/view)
 
-*[Full video (2:17, in French)](https://drive.google.com/file/d/1oU39vlcpxEfFu0RXz3ERBBnLPYjn2RT0/view)*
+<details><summary>French version</summary>
+
+[![La carte du réseau de départ, un centre de traitement ouvert à Madrid, un calcul de 150 jours et ses quatre résultats, puis le passage au transport hyperconnecté vu sur un téléphone (cliquer pour la vidéo complète)](docs/demo.fr.webp)](https://drive.google.com/file/d/1LDG9IksurkQEXg4Vm_VjsnahHBX1TiVL/view)
+
+</details>
+
+*French interface, English captions; the English video has no sound (the narration is in French). [Full video (2:17)](https://drive.google.com/file/d/1oU39vlcpxEfFu0RXz3ERBBnLPYjn2RT0/view)*
 
 ## Using it
 
